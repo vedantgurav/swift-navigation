@@ -1,61 +1,59 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "swift-case-paths",
-        "repositoryURL": "https://github.com/pointfreeco/swift-case-paths",
-        "state": {
-          "branch": null,
-          "revision": "e593aba2c6222daad7c4f2732a431eed2c09bb07",
-          "version": "1.3.0"
-        }
-      },
-      {
-        "package": "swift-custom-dump",
-        "repositoryURL": "https://github.com/pointfreeco/swift-custom-dump",
-        "state": {
-          "branch": null,
-          "revision": "aedcf6f4cd486ccef5b312ccac85d4b3f6e58605",
-          "version": "1.1.2"
-        }
-      },
-      {
-        "package": "SwiftDocCPlugin",
-        "repositoryURL": "https://github.com/apple/swift-docc-plugin",
-        "state": {
-          "branch": null,
-          "revision": "26ac5758409154cc448d7ab82389c520fa8a8247",
-          "version": "1.3.0"
-        }
-      },
-      {
-        "package": "SymbolKit",
-        "repositoryURL": "https://github.com/apple/swift-docc-symbolkit",
-        "state": {
-          "branch": null,
-          "revision": "b45d1f2ed151d057b54504d653e0da5552844e34",
-          "version": "1.0.0"
-        }
-      },
-      {
-        "package": "swift-syntax",
-        "repositoryURL": "https://github.com/apple/swift-syntax.git",
-        "state": {
-          "branch": null,
-          "revision": "6ad4ea24b01559dde0773e3d091f1b9e36175036",
-          "version": "509.0.2"
-        }
-      },
-      {
-        "package": "xctest-dynamic-overlay",
-        "repositoryURL": "https://github.com/pointfreeco/xctest-dynamic-overlay",
-        "state": {
-          "branch": null,
-          "revision": "23cbf2294e350076ea4dbd7d5d047c1e76b03631",
-          "version": "1.0.2"
-        }
+  "pins" : [
+    {
+      "identity" : "swift-case-paths",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/vedantgurav/swift-case-paths",
+      "state" : {
+        "branch" : "use",
+        "revision" : "8f7e3902eabbbba9870307752c43ec59c204b394"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "swift-custom-dump",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/swift-custom-dump",
+      "state" : {
+        "revision" : "aedcf6f4cd486ccef5b312ccac85d4b3f6e58605",
+        "version" : "1.1.2"
+      }
+    },
+    {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-plugin",
+      "state" : {
+        "revision" : "26ac5758409154cc448d7ab82389c520fa8a8247",
+        "version" : "1.3.0"
+      }
+    },
+    {
+      "identity" : "swift-docc-symbolkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-docc-symbolkit",
+      "state" : {
+        "revision" : "b45d1f2ed151d057b54504d653e0da5552844e34",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "swift-syntax-xcframeworks",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sjavora/swift-syntax-xcframeworks.git",
+      "state" : {
+        "revision" : "7501c18dfe20e637818d838df961072176d6296e",
+        "version" : "510.0.1"
+      }
+    },
+    {
+      "identity" : "xctest-dynamic-overlay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pointfreeco/xctest-dynamic-overlay",
+      "state" : {
+        "revision" : "23cbf2294e350076ea4dbd7d5d047c1e76b03631",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
 }
